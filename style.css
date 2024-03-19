@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Fondamento", cursive;
+    font-weight: 400;
+    font-style: italic;
+  }
+  .bibi{
+    color: blue;
+    text-decoration: underline;
+  }
 tr, td,th{
-    border: 2px solid black;
+    border: .5px solid rgb(74, 73, 73);
     padding: 5px;
     font-size: 18px;
 }

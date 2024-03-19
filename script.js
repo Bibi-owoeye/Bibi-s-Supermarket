@@ -5,7 +5,7 @@ var cart = []
 var show = document.getElementById('show');
 var placeHolder = document.getElementById('placeholder');
 var allButtons= document.getElementById('allButtons');
-showItems();
+
 
 
 function addItems(){
@@ -27,26 +27,7 @@ function addItems(){
         displayItem()
     }
 }
-// function showItems(){
-//     if (cart == "") {
-//         noItem.innerHTML = "No items yet"
-//         document.getElementById("noItems").style.display = "block"
-//         document.getElementById("show").style.display = "none"
-//         document.getElementById("allButtons").style.display = "none"
-//     } else {
-//         noItem.innerHTML = ""
-//         document.getElementById("noItems").style.display = "none"
-//         document.getElementById("show").style.display = "table"
-//         document.getElementById("allButtons").style.display = "block"
-// }
-// }
 
-// if(cart.length > 0){
-//     addItem.addEventListener('click', () =>{
-//         fourButtons.classList.remove('d-none');
-//         fourButtons.classList.add('d-block');
-//         });
-// }
 function displayItem(){
     var tableHTML = '<table class="text-center">';
     tableHTML += '<tr>';
